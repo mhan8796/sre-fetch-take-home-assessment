@@ -15,6 +15,11 @@ This script monitors the availability of HTTP endpoints defined in a YAML file. 
 
 
 2. Install dependencies:
-  ```
-  pip install -r requirements.txt
-  ```
+   ```
+   pip install -r requirements.txt
+   ```
+   
+3. Run the script with a YAML config file:
+   ```
+   python main.py sample.yaml
+   ```
