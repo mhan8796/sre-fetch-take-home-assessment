@@ -24,7 +24,7 @@ This script monitors the availability of HTTP endpoints defined in a YAML file. 
    python main.py sample.yaml
    ```
 
-YAML Config Format
+## YAML Config Format
    ```
    - name: sample endpoint
   url: https://example.com
@@ -35,13 +35,13 @@ YAML Config Format
    ```
 
 
-Availability Criteria
+## Availability Criteria
 
 - HTTP status code between 200 and 299
 
 - Response time ≤ 500ms
 
-Behavior
+## Behavior
 
 - Evaluates endpoints every 15 seconds
 
