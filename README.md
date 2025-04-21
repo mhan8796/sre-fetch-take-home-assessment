@@ -33,3 +33,16 @@ YAML Config Format
     content-type: application/json
   body: '{"key":"value"}'
    ```
+
+
+Availability Criteria
+HTTP status code between 200 and 299
+
+Response time ≤ 500ms
+
+Behavior
+Evaluates endpoints every 15 seconds
+
+Calculates cumulative availability per domain (ignores ports)
+
+Prints whole number availability percentages (drops decimals)
