@@ -23,3 +23,13 @@ This script monitors the availability of HTTP endpoints defined in a YAML file. 
    ```
    python main.py sample.yaml
    ```
+
+YAML Config Format
+   ```
+   - name: sample endpoint
+  url: https://example.com
+  method: POST
+  headers:
+    content-type: application/json
+  body: '{"key":"value"}'
+   ```
